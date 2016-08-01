@@ -1,0 +1,93 @@
+{
+	"data": [
+		{
+			"name": "sub1",
+			"id": "prj01_sub01",
+			"member": "mike",
+			"memberId": "1",
+			"period": "20160628~20160710",
+			"history": [
+				{
+					"id": "20160628",
+					"date": "2016/06/28",
+					"hours": 8,
+					"progress": 0.1,
+					"content": "develop tab:project management"
+				},
+				{
+					"id": "20160701",
+					"date": "2016/07/01",
+					"hours": 8,
+					"progress": 0.2,
+					"content": "develop tab:project management"
+				},
+				{
+					"id": "20160702",
+					"date": "2016/07/02",
+					"hours": 10,
+					"progress": 0.3,
+					"content": "develop tab:gantt chart"
+				},
+				{
+					"id": "20160704",
+					"date": "2016/07/04",
+					"hours": 10,
+					"progress": 0.5,
+					"content": "develop tab:gantt chart"
+				},
+				{
+					"id": "20160706",
+					"date": "2016/07/06",
+					"hours": 10,
+					"progress": 0.6,
+					"content": "develop tab:gantt chart"
+				},
+				{
+					"id": "20160709",
+					"date": "2016/07/09",
+					"hours": 10,
+					"progress": 0.8,
+					"content": "develop tab:gantt chart"
+				},
+				{
+					"id": "20160710",
+					"date": "2016/07/10",
+					"hours": 10,
+					"progress": 1,
+					"content": "develop tab:gantt chart"
+				}
+			]
+		},
+		{
+			"name": "sub4",
+			"id": "prj01_sub04",
+			"member": "mike",
+			"memberId": "1",
+			"period": "20160715~20160720",
+			"history": [
+				{
+					"id": "20160715",
+					"date": "2016/07/15",
+					"hours": 8,
+					"progress": 0.1,
+					"content": "develop tab:project management"
+				},
+				{
+					"id": "20160718",
+					"date": "2016/07/18",
+					"hours": 8,
+					"progress": 0.2,
+					"content": "develop tab:project management"
+				},
+				{
+					"id": "20160720",
+					"date": "2016/07/20",
+					"hours": 10,
+					"progress": 0.3,
+					"content": "develop tab:member management"
+				}
+			]
+		}
+
+	]
+}

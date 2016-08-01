@@ -1,0 +1,185 @@
+{
+	"data": [	
+		{
+			"name": "mike", 
+			"id": "1",
+			"memberColor": "#e884cb",
+			"projects": [
+				{
+					"id": "prj01",
+					"name": "a project",
+					"period": "20160628~20160810",
+					"tasks": [
+						{
+							"name": "sub1",
+							"id": "prj01_sub01",
+							"period": "20160628~20160710",
+							"updated": ["20160628", "20160701", "20160702", "20160704", "20160706", "20160709", "20160710"],
+							"days": 10,
+							"hours": 80,
+							"spent": 58,
+							"progress": 1
+						},
+						{
+							"name": "sub4",
+							"id": "prj01_sub04",
+							"period": "20160715~20160810",
+							"updated": ["20160715", "20160718", "20160720"],
+							"days": 27,
+							"hours": 216,
+							"spent": 24,
+							"progress": 0.3
+						}
+					]
+				}
+			]
+		}, 
+		{
+			"name": "tom", 
+			"id": "2",
+			"memberColor": "#af84e8",
+			"projects": [
+				{
+					"id": "prj01",
+					"name": "a project",
+					"period": "20160628~20160810",
+					"tasks": [
+						{
+							"name": "sub2",
+							"id": "prj01_sub02",
+							"period": "20160701~20160715",
+							"days": 15,
+							"hours": 120,
+							"spent": 95,
+							"progress": 0.8
+						}
+					]
+				}
+			]
+		}, 
+		{
+			"name": "jimmy", 
+			"id": "3",
+			"memberColor": "#849ee8",
+			"projects": [
+				{
+					"id": "prj01",
+					"name": "a project",
+					"period": "20160628~20160810",
+					"tasks": [
+						{
+							"name": "sub3",
+							"id": "prj01_sub03",
+							"period": "20160710~20160731",
+							"days": 21,
+							"hours": 168,
+							"spent": 84,
+							"progress": 0.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "eric", 
+			"id": "4"
+		}, 
+		{
+			"name": "adam", 
+			"id": "5"
+		}, 
+		{
+			"name": "obama", 
+			"id": "6"
+		},
+		{
+			"name": "ellis", 
+			"id": "7"
+		}, 
+		{
+			"name": "tommy", 
+			"id": "8"
+		}, 
+		{
+			"name": "jack", 
+			"id": "9"
+		},
+		{
+			"name": "james", 
+			"id": "10"
+		}, 
+		{
+			"name": "nick", 
+			"id": "11"
+		},
+		{
+			"name": "jack", 
+			"id": "13",
+			"memberColor": "#84e8df",
+			"projects": [
+				{
+					"id": "prj02",
+					"name": "b project",
+					"period": "20160801~20160831",
+					"tasks": [
+						{
+							"name": "sub1",
+							"id": "prj02_sub01",
+							"period": "20160801~20160810",
+							"days": 10,
+							"hours": 80,
+							"spent": 8,
+							"progress": 0
+						}
+					]
+				}
+			]
+		}, 
+		{
+			"name": "james", 
+			"id": "14",
+			"memberColor": "#a7e884",
+			"projects": [
+				{
+					"id": "prj02",
+					"name": "b project",
+					"period": "20160801~20160831",
+					"tasks": [
+						{
+							"name": "sub2",
+							"id": "prj02_sub02",
+							"period": "20160801~20160810",
+							"days": 10,
+							"hours": 80,
+							"spent": 26,
+							"progress": 0
+						}
+					]
+				}
+			]
+		}, 
+		{
+			"name": "nick", 
+			"id": "15",
+			"memberColor": "#eac044",
+			"projects": [
+				{
+					"id": "prj02",
+					"name": "b project",
+					"period": "20160801~20160831",
+					"tasks": [
+						{
+							"name": "sub3",
+							"id": "prj02_sub03",
+							"period": "20160801~20160831",
+							"days": 31,
+							"hours": 248,
+							"spent": 77,
+							"progress": 0
+						}
+					]
+				}
+			]
+		}
+	]
+}

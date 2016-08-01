@@ -1,0 +1,117 @@
+{
+	"data": [
+		{
+			"id": "prj01",
+			"name": "a project",
+			"workHoursPerDay": 8,
+			"period": "20160628~20160810",
+			"details": [
+				{
+					"name": "sub1",
+					"id": "prj01_sub01",
+					"member": "mike",
+					"memberId": "1",
+					"memberColor": "#e884cb",
+					"period": "20160628~20160710",
+					"updated": ["20160628", "20160701", "20160702", "20160704", "20160706", "20160709", "20160710"],
+					"days": 10,
+					"hours": 80,
+					"spent": 58,
+					"progress": 1
+				},
+				{
+					"name": "sub2",
+					"id": "prj01_sub02",
+					"member": "tom",
+					"memberId": "2",
+					"memberColor": "#af84e8",
+					"period": "20160701~20160715",
+					"days": 15,
+					"hours": 120,
+					"spent": 95,
+					"progress": 0.8
+				},
+				{
+					"name": "sub3",
+					"id": "prj01_sub03",
+					"member": "jimmy",
+					"memberId": "3",
+					"memberColor": "#849ee8",
+					"period": "20160710~20160731",
+					"days": 21,
+					"hours": 168,
+					"spent": 84,
+					"progress": 0.5
+				},
+				{
+					"name": "sub4",
+					"id": "prj01_sub04",
+					"member": "mike",
+					"memberId": "1",
+					"memberColor": "#e884cb",
+					"period": "20160715~20160810",
+					"updated": ["20160715", "20160718", "20160720"],
+					"days": 27,
+					"hours": 216,
+					"spent": 24,
+					"progress": 0.3
+				}
+
+			]
+		},
+		{
+			"id": "prj02",
+			"name": "b project",
+			"workHoursPerDay": 8,
+			"period": "20160801~20160831",
+			"details": [
+				{
+					"name": "sub1",
+					"id": "prj02_sub01",
+					"member": "jack",
+					"memberId": "13",
+					"memberColor": "#84e8df",
+					"period": "20160801~20160810",
+					"days": 10,
+					"hours": 80,
+					"spent": 8,
+					"progress": 0
+				},
+				{
+					"name": "sub2",
+					"id": "prj02_sub02",
+					"member": "james",
+					"memberId": "14",
+					"memberColor": "#a7e884",
+					"period": "20160801~20160810",
+					"days": 10,
+					"hours": 80,
+					"spent": 26,
+					"progress": 0
+				},
+				{
+					"name": "sub3",
+					"id": "prj02_sub03",
+					"member": "nick",
+					"memberId": "15",
+					"memberColor": "#eac044",
+					"period": "20160801~20160831",
+					"days": 31,
+					"hours": 248,
+					"spent": 77,
+					"progress": 0
+				},
+				{
+					"name": "sub4",
+					"id": "prj02_sub04"
+				},
+				{
+					"name": "sub4",
+					"id": "prj02_sub04"
+				}
+
+			]
+		}
+
+	]
+}

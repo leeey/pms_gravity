@@ -1,0 +1,35 @@
+{
+	"data" : [
+		{
+			"name": "a project",
+			"id": "prj01",
+			"period": "20160628~20160810",
+			"members": [
+				{"name": "mike", "id": "1", "memberColor": "#e884cb"}, 
+				{"name": "tom", "id": "2", "memberColor": "#af84e8"}, 
+				{"name": "jimmy", "id": "3", "memberColor": "#849ee8"},
+				{"name": "eric", "id": "4"}, 
+				{"name": "adam", "id": "5"}, 
+				{"name": "obama", "id": "6"},
+				{"name": "ellis", "id": "7"}, 
+				{"name": "tommy", "id": "8"}, 
+				{"name": "jack", "id": "9"},
+				{"name": "james", "id": "10"}, 
+				{"name": "nick", "id": "11"}
+			],
+			"content": "about a project..."
+		},
+		{
+			"name": "b project",
+			"id": "prj02",
+			"period": "20160801~20160830",
+			"members": [
+				{"name": "jack", "id": "13", "memberColor": "#84e8df"}, 
+				{"name": "james", "id": "14", "memberColor": "#a7e884"}, 
+				{"name": "nick", "id": "15", "memberColor": "#eac044"}
+			],
+			"content": "about b project..."
+		}
+
+	]
+}
