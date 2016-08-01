@@ -33,11 +33,11 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 						},
 						{
 							xtype: 'button',
-							text: '저장'
+							text: 'Save'
 						},
 						{
 							xtype: 'button',
-							text: '취소'
+							text: 'Cancel'
 						}
 					]
 				}
@@ -45,31 +45,31 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 			items: [
 				{
 					xtype: 'textfield',
-					fieldLabel: '업무',
+					fieldLabel: 'Task',
 					editable: false,
 					value: record.get('name')
 				},
 				{
 					xtype: 'textfield',
-					fieldLabel: '담당자',
+					fieldLabel: 'Member',
 					editable: false,
 					value: record.get('member')
 				},
 				{
 					xtype: 'textfield',
-					fieldLabel: '기간',
+					fieldLabel: 'Period',
 					editable: false,
-					value: record.get('period')+' / '+record.get('days')+'일'
+					value: record.get('period')+' / '+record.get('days')+' days'
 				},
 				{
 					xtype: 'textfield',
-					fieldLabel: '진행시간(h)',
+					fieldLabel: 'Hours(h)',
 					editable: false,
 					value: record.get('spent')+' / '+record.get('hours')
 				},
 				{
 					xtype: 'textfield',
-					fieldLabel: '진행률(%)',
+					fieldLabel: 'Progress(%)',
 					editable: false,
 					value: record.get('progress')*100
 				},
@@ -82,12 +82,12 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 					items: [
 						{
 							xtype: 'fieldset',
-							title: '업무설정',
+							title: 'Setting',
 							margin: 5,
 							items: [
 								{
 									xtype: 'combobox',
-									fieldLabel: '담당자',
+									fieldLabel: 'Member',
 									value: record.get('member'),
 									displayField: 'name',
 									valueField: 'id',
@@ -98,7 +98,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 								},
 								{
 									xtype: 'datefield',
-									fieldLabel: '일자',
+									fieldLabel: 'Date',
 									format: 'Y/m/d',
 									value: new Date(),
 									emptyText: 'YYYY/MM/DD'
@@ -108,7 +108,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 								},
 								{
 									xtype: 'numberfield',
-									fieldLabel: '시간(h)',
+									fieldLabel: 'Hours(h)',
 									minValue: 0,
 									value: 8,
 									editable: false
@@ -118,7 +118,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 								},
 								{
 									xtype: 'combobox',
-									fieldLabel: '진행률(%)',
+									fieldLabel: 'Progress(%)',
 									value: record.get('progress')*100,
 									displayField: 'text',
 									valueField: 'value',
@@ -142,7 +142,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 						},
 						{
 							xtype: 'fieldset',
-							title: '업무내용',
+							title: 'Content',
 							margin: 5,
 							flex: 1,
 							layout: {
@@ -166,7 +166,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopupController', {
 										},
 										{
 											xtype: 'button',
-											text: '추가',
+											text: 'Add',
 											listeners: {
 												click: function(v) {
 													var cnt=Ext.ComponentQuery.query('textfield', v.up('fieldset')).length;

@@ -324,22 +324,22 @@ Ext.define('PmsGravity.view.ganttmain.GanttMainController', {
 										items: [
 											{
 												xtype: 'textfield',
-												fieldLabel: '일자',
+												fieldLabel: 'Date',
 												value: item.date
 											},
 											{
 												xtype: 'textfield',
-												fieldLabel: '시간(h)',
+												fieldLabel: 'Hours(H)',
 												value: item.hours
 											},
 											{
 												xtype: 'textfield',
-												fieldLabel: '진행률(%)',
+												fieldLabel: 'Progress(%)',
 												value: item.progress*100
 											},
 											{
 												xtype: 'textarea',
-												fieldLabel: '내용',
+												fieldLabel: 'Content',
 												value: item.content
 											}
 

@@ -52,34 +52,37 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopup', {
 			layout: 'fit',
 			forceFit: true,
 			columns: {
+				defaults: {
+					align: 'center'
+				},
 				items: [
 					{
-						text: '업무ID',
+						text: 'Task ID',
 						dataIndex: 'id'
 					},
 					{
-						text: '업무',
+						text: 'Task',
 						dataIndex: 'name'
 					},
 					{
-						text: '담당자',
+						text: 'Member',
 						dataIndex: 'member'
 					},
 					{
-						text: 'memberId',
+						text: 'Member ID',
 						dataIndex: 'memberId',
 						hidden: true
 					},
 					{
-						text: '기간',
+						text: 'Period',
 						dataIndex: 'period'
 					},
 					{
-						text: '진행시간(h)',
+						text: 'Hours(h)',
 						dataIndex: 'spent'
 					},
 					{
-						text: '진행률(%)',
+						text: 'Progress(%)',
 						xtype: 'widgetcolumn',
 						dataIndex: 'progress',
 						widget: {
@@ -90,20 +93,20 @@ Ext.define('PmsGravity.view.pmsmain.popup.DetailPopup', {
 						}
 					},
 					{
-						text: '관리',
+						text: 'Edit/Del',
 						xtype: 'widgetcolumn',
 						widget: {
 							xtype: 'segmentedbutton',
 							items: [
 								{
-									text: '수정',
+									text: 'Edit',
 									listeners: {
 										click: 'onUpdatebuttonClick'
 									}
 								},
 								{
 
-									text: '삭제'
+									text: 'Del'
 								}
 							]
 						}

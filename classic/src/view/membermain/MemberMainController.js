@@ -149,9 +149,9 @@ Ext.define('PmsGravity.view.membermain.MemberMainController', {
 		var projects=column.getWidgetRecord().get('projects');
 
 		if(projects) {
-			column.setTitle(projects.length+' 프로젝트');	
+			column.setTitle(projects.length+' projects');	
 		} else {
-			column.setTitle('0 프로젝트');
+			column.setTitle('0 projects');
 		}
 		
 		for(var i in projects) {

@@ -184,7 +184,7 @@ Ext.define('PmsGravity.view.ganttmain.GanttMain', {
 						},
 						{
 							xtype: 'button',
-							text: '적용',
+							text: 'Apply',
 							width: 80,
 							margin: '5 5 5 0',
 							listeners: {
@@ -212,28 +212,31 @@ Ext.define('PmsGravity.view.ganttmain.GanttMain', {
 					columns: {
 						items: [
 							{
-								text: '프로젝트',
+								text: 'Projects',
+								defaults: {
+									align: 'center'
+								},
 								columns: [
 									{
-										text: '업무명',
+										text: 'Task',
 										dataIndex: 'name',
 										width: 150,
 									},
 									{
-										text: '담당자',
+										text: 'Member',
 										dataIndex: 'member'
 									},
 									{
-										text: '기간',
+										text: 'Period',
 										dataIndex: 'period',
 										width: 150
 									},
 									{
 										xtype: 'widgetcolumn',
-										text: '수정',
+										text: 'Edit',
 										widget: {
 											xtype: 'button',
-											text: '수정'
+											text: 'Edit'
 										}
 									}
 								]

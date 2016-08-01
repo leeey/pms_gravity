@@ -38,11 +38,11 @@ Ext.define('PmsGravity.view.statmain.StatMain', {
 					items: [
 						{
 							xtype: 'statchart',
-							title: '프로젝트 현황'
+							title: 'Project'
 						},
 						{
 							xtype: 'statchart',
-							title: '프로젝트 진행률'
+							title: 'Project'
 						}
 					]
 				},
@@ -59,11 +59,11 @@ Ext.define('PmsGravity.view.statmain.StatMain', {
 					items: [
 						{
 							xtype: 'statchart',
-							title: '프로젝트 현황'
+							title: 'Project'
 						},
 						{
 							xtype: 'statchart',
-							title: '프로젝트 진행률'
+							title: 'Project'
 						}
 					]
 				},
@@ -80,11 +80,11 @@ Ext.define('PmsGravity.view.statmain.StatMain', {
 					items: [
 						{
 							xtype: 'statchart',
-							title: '프로젝트 현황'
+							title: 'Project'
 						},
 						{
 							xtype: 'statchart',
-							title: '프로젝트 진행률'
+							title: 'Project'
 						}
 					]
 				}

@@ -14,7 +14,6 @@ Ext.define('PmsGravity.view.pmsmain.PmsMain', {
 		type: 'pmsmain'
 	},
 
-	title: '프로젝트관리',
 	layout: {
 		type: 'table',
 		columns: 5,
@@ -43,7 +42,7 @@ Ext.define('PmsGravity.view.pmsmain.PmsMain', {
 					reference: 'prjCombo',
 					width: 200,
 					editable: false,
-					fieldLabel: '프로젝트보기',
+					fieldLabel: 'show',
 					fields: ['name', 'count'],
 					store: {
 						data: [

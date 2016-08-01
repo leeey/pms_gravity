@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'PmsGravity' );
-$image-search-path: 'C:/Users/Lee/Desktop/pms_gravity/build/development/PmsGravity/classic/resources';
+$image-search-path: 'C:/Users/Lee/Desktop/git_/pms_gravity/build/development/PmsGravity/classic/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;

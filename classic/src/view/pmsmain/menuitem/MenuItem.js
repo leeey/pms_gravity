@@ -22,17 +22,17 @@ Ext.define('PmsGravity.view.pmsmain.menuitem.MenuItem', {
 			v.add(
 				{
 					xtype: 'textfield',
-					fieldLabel: '프로젝트명',
+					fieldLabel: 'Project',
 					value: project.get('name') 
 				},
 				{
 					xtype: 'textfield',
-					fieldLabel: '기간',
+					fieldLabel: 'Period',
 					value: project.get('period')
 				},
 				{
 					xtype: 'fieldset',
-					title: '구성원('+project.get('members').length+')',
+					title: 'Members('+project.get('members').length+')',
 					collapsed: true,
 					collapsible: true,
 					defaults: {
@@ -45,13 +45,13 @@ Ext.define('PmsGravity.view.pmsmain.menuitem.MenuItem', {
 				},
 				{
 					xtype: 'textarea',
-					fieldLabel: '프로젝트 요약',
+					fieldLabel: 'Summary',
 					flex: 3,
 					value: project.get('content')
 				},
 				{
 					xtype: 'button',
-					text: '세부진행관리',
+					text: 'Details',
 					margin: 3,
 					listeners: {
 						click: function() {
@@ -86,7 +86,7 @@ Ext.define('PmsGravity.view.pmsmain.menuitem.MenuItem', {
 				},
 				{
 					xtype: 'button',
-					text: '수정',
+					text: 'Edit',
 					margin: 3
 				}
 			);

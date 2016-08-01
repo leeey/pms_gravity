@@ -58,13 +58,13 @@ Ext.define('PmsGravity.view.main.Main', {
             },
             {
                 xtype: 'button',
-                text: '로그인',
+                text: 'Sign in',
                 width: 80,
                 margin: '5 5 5 0'
             },
             {
                 xtype: 'button',
-                text: '등록',
+                text: 'Sign up',
                 width: 80,
                 margin: '5 5 5 0'
             }
@@ -113,7 +113,7 @@ Ext.define('PmsGravity.view.main.Main', {
     },
     items: [
         {
-            title: '프로젝트관리',
+            title: 'Projects',
             xtype: 'pmsmain'      
         },
         {
@@ -121,11 +121,11 @@ Ext.define('PmsGravity.view.main.Main', {
             xtype: 'ganttmain'
         }, 
         {
-            title: '구성원 관리',
+            title: 'Members',
             xtype: 'membermain'
         }, 
         {
-            title: '통계',
+            title: 'Statistics',
             xtype: 'statmain'
         }, 
         // {

@@ -41,7 +41,7 @@ Ext.define('PmsGravity.view.pmsmain.PmsMainController', {
 					}
 					me.getView().add({
 						xtype: 'button',
-						text: '프로젝트 추가'.fontsize(3).fontcolor('gray'),
+						text: '+ project'.fontsize(3).fontcolor('gray'),
 						width: '100%',
 						height: '100%',
 						style: {
@@ -59,7 +59,7 @@ Ext.define('PmsGravity.view.pmsmain.PmsMainController', {
 						cnt++;
 						me.getView().add({
 							xtype: 'button',
-							text: '프로젝트를 추가해주세요',
+							text: '+ project',
 							width: '100%',
 							height: '100%',
 							style: {
