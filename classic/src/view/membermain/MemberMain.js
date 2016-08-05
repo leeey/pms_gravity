@@ -147,7 +147,7 @@ Ext.define('PmsGravity.view.membermain.MemberMain', {
 				{
 					xtype: 'gridpanel',
 					reference: 'memberInfoGrid',
-					title: 'Members\' info',
+					title: 'Member info',
 					flex: 1,
 					forceFit: true,
 					dockedItems: [
@@ -242,6 +242,7 @@ Ext.define('PmsGravity.view.membermain.MemberMain', {
 								xtype: 'widgetcolumn',
 								text: 'Projects',
 								flex: 1,
+								align: 'left',
 								widget: {
 									xtype: 'fieldset',
 									scrollable: true,
