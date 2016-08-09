@@ -7,7 +7,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.AddProjectPopup', {
 		'PmsGravity.store.ProjectMembers'
 	],
 
-	title: '새 프로젝트 등록',
+	title: 'Add new project',
 	width: '50%',
 	padding: 15,
 	monitorResize: true,
@@ -30,11 +30,11 @@ Ext.define('PmsGravity.view.pmsmain.popup.AddProjectPopup', {
 						},
 						{
 							xtype: 'button',
-							text: '등록'
+							text: 'Add'
 						},
 						{
 							ㅌxtype: 'button',
-							text: '취소'
+							text: 'Cancel'
 						}
 					]
 				}
@@ -53,11 +53,11 @@ Ext.define('PmsGravity.view.pmsmain.popup.AddProjectPopup', {
 					items:[
 						{
 							xtype: 'textfield',
-							fieldLabel: '프로젝트 명'
+							fieldLabel: 'Project'
 						},
 						{
 							xtype: 'textfield',
-							fieldLabel: '프로젝트 기간',
+							fieldLabel: 'Period',
 							emptyText: 'YYYYMMDD~YYYYMMDD'
 						},
 						{
@@ -70,14 +70,14 @@ Ext.define('PmsGravity.view.pmsmain.popup.AddProjectPopup', {
 								{
 							        xtype: 'tagfield',
 							        itemId: 'memberTag',
-							        fieldLabel: '구성원 선택',
+							        fieldLabel: 'Members',
 							        value: ['id'],
 							        displayField: 'name',
 							        valueField: 'id',
 							        filterPickList: true,
 							        queryMode: 'local',
 							        publishes: 'value',
-							        emptyText: '구성원을 선택해주세요',
+							        emptyText: 'Select members',
 							        listeners: {
 							        	render: function(v) {
 							        		var store=Ext.create({
@@ -91,7 +91,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.AddProjectPopup', {
 							    },
 							    {
 							    	xtype: 'button',
-							    	text: '초기화',
+							    	text: 'Init',
 							    	margin: '0 0 0 5',
 							    	listeners: {
 							    		click: function(button) {
@@ -103,7 +103,7 @@ Ext.define('PmsGravity.view.pmsmain.popup.AddProjectPopup', {
 						},		
 						{
 							xtype: 'textarea',
-							fieldLabel: '프로젝트 요약',
+							fieldLabel: 'Description',
 							flex: 3
 						}
 					]
