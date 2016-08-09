@@ -27,7 +27,6 @@ Ext.define('PmsGravity.view.membermain.MemberMain', {
 					itemId: 'myInfoGrid',
 					title: 'My info',
 					margin: '0 0 15 0',
-					
 					dockedItems: [
 						{
 							xtype: 'toolbar',
@@ -128,6 +127,7 @@ Ext.define('PmsGravity.view.membermain.MemberMain', {
 								xtype: 'widgetcolumn',
 								text: 'Projects',
 								flex: 1,
+								align: 'left',
 								widget: {
 									xtype: 'fieldset',
 									scrollable: true,
